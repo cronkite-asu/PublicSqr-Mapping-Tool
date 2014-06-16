@@ -1,6 +1,6 @@
 PublicSqr Mapping Tool
 =========
-The PublicSqr Mapping Tool is a Django/python framework built on top of Open Street Maps. This tool will allow users to draw on top of maps and share them with collaborators. The tool was made possible through a generous grant from the Knight Foundation and through the Association for Education in Journalism and Mass Communication.
+The PublicSqr Mapping Tool is a Django/python framework built on top of Open Street Maps. This tool will allow users to draw on top of maps and share them with collaborators. The tool was made possible through a generous grant from the Knight Foundation and through the Association for Education in Journalism and Mass Communication. It was developed by the New Media Innovation Lab at the Walter Cronkite School of Journalism and Mass Communication at Arizona State University. The primary developers were Micah Jamison and Retha Hill, executive director of the Lab.
 
 Currently the most people can do with various map APIs is to drop pins on a map. With the PublicSqr tool, people will be able to do much more:
 •	A developer can show exactly where and the shape of a new building 
