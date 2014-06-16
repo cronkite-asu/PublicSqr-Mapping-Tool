@@ -11,7 +11,7 @@ These maps can be shared and others can edit them — but the built-in version c
 
 Users can easily sign in with Google or Facebook. Sharing can be done via email.
 
-
+See the mapping tool in action at PublicSqr.us
 
 
 
