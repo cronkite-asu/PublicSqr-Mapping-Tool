@@ -49,13 +49,13 @@ function _apnd_chgst_(url){
 iD.Connection = function() {
 
     var event = d3.dispatch('authenticating', 'authenticated', 'auth', 'loading', 'load', 'loaded'),
-        url = 'http://127.0.0.1:8000',
+        url = 'http://publicsqr.us',
         connection = {},
         user = {},
         inflight = {},
         loadedTiles = {},
         oauth = osmAuth({
-            url: 'http://127.0.0.1:8000',
+            url: 'http://publicsqr.us',
             oauth_consumer_key: '5A043yRSEugj4DJ5TljuapfnrflWDte8jTOcWLlT',
             oauth_secret: 'aB3jKq1TRsCOUrfOIZ6oQMEDmv2ptV76PA54NGLL',
             loading: authenticating,
@@ -307,7 +307,8 @@ iD.Connection = function() {
                         path: '/api/0.6/changeset/' + changeset_id + '/close'
                     }, function(err) {
                         callback(err, changeset_id);
-                    });
+                    	parent.location.reload();  //refresh
+		    });
                     // redirect to the new changeset
                 });
             });

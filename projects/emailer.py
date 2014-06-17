@@ -26,6 +26,6 @@ def invite_people(model_project, li_emails):
 
         c = Context({"proj": model_project, "key": usr2proj.key, "domain": settings.SITE_DOMAIN})
         message = t.render(c)
-        msg = EmailMultiAlternatives(EMAIL_SUBJECT, message, "noreply@publicsqr.com", [email,])
+        msg = EmailMultiAlternatives(EMAIL_SUBJECT, message, "noreply@publicsqr.us", [email,])
         msg.attach_alternative(message, "text/html")
         msg.send()

@@ -77,7 +77,7 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = ''
+STATIC_ROOT = '/home/publicsqr/iD_django/static/'
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
@@ -212,8 +212,8 @@ SOCIAL_AUTH_AUTHENTICATION_BACKENDS = (
 	'social.backends.twitter.TwitterOAuth'
 )
 
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '681732485673-2fh3otuk3hs820ld7214odi2nodmavnj.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '5JLXTKrD4mYK6gZM3YRvKB23'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '518565691166-isp20jlsjg48a4bbacbudtedsr14i8e4.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'q9o0G3lYn2nQ62b2qeDggVgf'
 #SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['https://www.googleapis.com/auth/calendar']
 	
 EMAIL_HOST = "smtp.gmail.com"
@@ -223,4 +223,4 @@ EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 SERVER_EMAIL="dataconcise@gmail.com"
 
-SITE_DOMAIN = "http://54.226.23.149:8081"
+SITE_DOMAIN = "http://publicsqr.us"

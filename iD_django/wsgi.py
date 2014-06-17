@@ -14,7 +14,11 @@ framework.
 
 """
 import os
+activate_this = '/home/publicsqr/virtual/bin/activate_this.py'
+execfile(activate_this, dict(__file__=activate_this))
+import sys
 
+sys.path.append("/home/publicsqr/iD_django")
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "iD_django.settings")
 
 # This application object is used by any WSGI server configured to use this
