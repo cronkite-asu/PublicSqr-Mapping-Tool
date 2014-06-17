@@ -17,7 +17,7 @@ See the mapping tool in action at PublicSqr.us
 
 Developer Nodes
 -------------
-iD map editor (https://github.com/openstreetmap/iD/) is an open source openstreetmap.org map editor.  This project reimplements parts of the oepnstreetmap (osm) api in python/django with a spatial database.
+iD map editor (https://github.com/openstreetmap/iD/) is an open source openstreetmap.org map editor.  This project reimplements parts of the openstreetmap (osm) api in python/django with a spatial database.
 
 Directory Structure:
 * The osm_api can be found under osm_api/ directory
